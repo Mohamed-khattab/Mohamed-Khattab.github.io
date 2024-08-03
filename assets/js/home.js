@@ -46,7 +46,7 @@ var projectCards;
     // ============== Fix Timelines Horizontal Lines =========
     var hLines = document.getElementsByClassName("horizontal-line");
     for (let i = 0; i < hLines.length; i++) {
-      if (i % 2) {
+      if (!( i % 2) ){
         hLines[i].children[0].children[0].classList.add("bottom-right");
         hLines[i].children[2].children[0].classList.add("top-left");
       } else {
