@@ -92,7 +92,7 @@
 .timeline .horizontal-line hr {
   border-top: 3px solid #248aaa;
   margin: 0;
-  top: 17px;
+  top: 15px;
   position: relative;
 }
 
@@ -104,8 +104,10 @@
 .timeline .horizontal-line .corner {
   border: 3px solid #248aaa;
   width: 100%;
+  height: 40px;
   position: relative;
   border-radius: 15px;
+  margin-top: -1.5px;
 }
 
 .top-left {
