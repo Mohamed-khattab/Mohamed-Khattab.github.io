@@ -2,10 +2,17 @@
 <html lang="en">
 <head>
   <meta name="generator" content="Hugo 0.79.1" />
-  <title>Portfolio</title>
+  <title>Mohamed Khattab — Portfolio</title>
 
 
-  <meta name="description" content="Portfolio and personal blog of Wassim Filali." />
+  <meta name="description" content="Mohamed Khattab — software engineer building backend systems, distributed infrastructure, and fintech tooling. Go, Laravel, TypeScript, Python." />
+  <meta name="author" content="Mohamed Khattab" />
+  <meta property="og:title" content="Mohamed Khattab — Portfolio" />
+  <meta property="og:description" content="Engineer • systems builder • fintech-curious. Backend, distributed systems, and database internals." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mohamed-khattab.github.io/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@ME_Khattab" />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -38,18 +45,6 @@
 
 
 
-  <script type="application/javascript">
-    var doNotTrack = false;
-    if (!doNotTrack) {
-      window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
-      ga('create', 'UA-XXXXXXXXX-X', 'auto');
-
-      ga('send', 'pageview');
-    }
-  </script>
-  <script async src='https://www.google-analytics.com/analytics.js'></script>
-
-
 </head>
 
 <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
@@ -79,6 +74,7 @@
 
           <li class="nav-item">
             <a class="nav-link" href="#experiences">Experiences</a>
+          </li>
 
           <li class="nav-item">
             <a class="nav-link" href="#projects">Projects</a>
@@ -130,12 +126,9 @@
 
 
         <li>I am a Backend Engineer</li>
-
-       <!-- <li>I am a System Architect</li> -->
-        
-       <!--     <li>I work in the automotive industry</li>
-        
-          <li>I participate in open-source projects</li> -->
+        <li>I build distributed systems</li>
+        <li>I am fintech-curious</li>
+        <li>I contribute to open-source</li>
 
       </ul>
 
@@ -156,36 +149,40 @@
           <h3 class="p-1">Mohamed Khattab</h3>
 
           <h5 class="p-1">
-            Software Engineer
-
-            <!-- at <a href="https://www.bmw.com">BMW AG</a> -->
-
+            Software Engineer II at <a href="https://specright.com">Specright</a>
           </h5>
 
           <p class="p-1 text-justify">
-            I’m Mohamed, a backend-leaning software engineer with almost three years of experience shipping products for
-             adtech and B2B e-commerce platforms. Over the years I’ve worked across Go, Node.js, Laravel, TypeScript, Redis, ClickHouse, PostgreSQL, Docker, and
-             AWS usually in blends that span ad platforms, analytics pipelines, and e-commerce platforms. I stay close to the
-             web platform, enjoy learning new system designs and internals, and keep exploring devops practices, observability, and
-            automating the little tasks that make development faster.</p>
+            I’m Mohamed, a backend-leaning software engineer with four years of experience shipping products across
+            adtech, B2B e‑commerce, and supply-chain platforms. I’ve worked across Go, Node.js, Laravel, TypeScript, Redis,
+            ClickHouse, PostgreSQL, Docker, and AWS — usually in blends that span APIs, async pipelines, and data layers.
+            Outside of work I gravitate toward systems-level problems: order matching engines, storage internals, message
+            queues, and rate limiters. I’m fintech-curious, an open-source contributor, and open to volunteer engineering
+            with mission-driven and OSS projects.</p>
           <div class="text-container ml-auto">
             <ul class="social-link d-flex">
 
               <li>
 
-                <a href="mailto:mohamed.e.khattab.0@gmail.com" target="/"><i class="fas fa-envelope"></i></a>
+                <a href="mailto:mohamed.e.khattab.0@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
 
               </li>
 
               <li>
 
-                <a href="https://github.com/Mohamed-khattab" target="/"><i class="fab fa-github"></i></a>
+                <a href="https://github.com/Mohamed-khattab" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
 
               </li>
 
               <li>
 
-                <a href="https://www.linkedin.com/in/mohamed-khattab-0x/" target="/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/mohamed-khattab-0x/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+
+              </li>
+
+              <li>
+
+                <a href="https://twitter.com/ME_Khattab" target="_blank" rel="noopener" aria-label="X / Twitter"><i class="fab fa-x-twitter"></i></a>
 
               </li>
 
@@ -249,6 +246,54 @@
 
 
 
+        <div class="row align-items-center d-flex">
+
+          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+            <div class="circle font-weight-bold">1</div>
+          </div>
+
+          <div class="col-10 col-lg-8">
+            <div class="experience-entry-heading">
+
+              <div class="experience-heading-inline">
+                <div>
+                  <h5>Software Engineer II</h5>
+                  <h6><a href="https://specright.com" target="_blank" rel="noopener">Specright</a></h6>
+                </div>
+                <p class="text-muted">Feb.2026 ‑ Present · Remote</p>
+              </div>
+              <button class="experience-toggle" type="button" data-toggle="collapse" data-target="#experience-specright" aria-expanded="true" aria-controls="experience-specright">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+            <div id="experience-specright" class="collapse show experience-entry-body">
+              <ul class="justify-content-around">
+                <li>Building backend services and APIs for the Specification Management platform — moving structured product, supplier, and supply-chain spec data across the system.</li>
+                <li>Working across the data layer (PostgreSQL, queues, async jobs) to keep ingestion and integration paths reliable as customers scale their spec catalogs.</li>
+                <li>Collaborating with product and adjacent teams on enterprise-grade workflows — versioning, traceability, and cross-tenant data correctness.</li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+
+             <div class="row horizontal-line">
+          <div class="col-1 col-lg-2 timeline-side-div">
+            <div class="corner"></div>
+          </div>
+          <div class="col-10 col-lg-8">
+            <hr />
+          </div>
+          <div class="col-1 col-lg-2 timeline-side-div">
+            <div class="corner"></div>
+          </div>
+        </div>
+
+
+
         <div class="row align-items-center justify-content-end d-flex">
 
           <div class="col-10 col-lg-8">
@@ -257,9 +302,9 @@
               <div class="experience-heading-inline">
                 <div>
                   <h5>Full-time Software Engineer</h5>
-                  <h6><a href=https://cartona.com>Cartona</a></h6>
+                  <h6><a href="https://cartona.com" target="_blank" rel="noopener">Cartona</a></h6>
                 </div>
-                <p class="text-muted">Feb.2025 ‑ Present · Cairo, Egypt</p>
+                <p class="text-muted">Feb.2025 ‑ Feb.2026 · Cairo, Egypt</p>
               </div>
               <button class="experience-toggle" type="button" data-toggle="collapse" data-target="#experience-cartona" aria-expanded="true" aria-controls="experience-cartona">
                 <i class="fas fa-chevron-down"></i>
@@ -277,7 +322,7 @@
           </div>
 
           <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-            <div class="circle font-weight-bold">1</div>
+            <div class="circle font-weight-bold">2</div>
           </div>
 
         </div>
@@ -300,7 +345,7 @@
         <div class="row align-items-center d-flex">
 
           <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-            <div class="circle font-weight-bold">2</div>
+            <div class="circle font-weight-bold">3</div>
           </div>
 
           <div class="col-10 col-lg-8">
@@ -309,7 +354,7 @@
               <div class="experience-heading-inline">
                 <div>
                   <h5>Full-time Software Engineer</h5>
-                  <h6><a href=https://speakol.com/>Speakol</a></h6>
+                  <h6><a href="https://speakol.com/" target="_blank" rel="noopener">Speakol</a></h6>
                 </div>
                 <p class="text-muted">Aug.2023 ‑ Jan.2025 · Cairo, Egypt</p>
               </div>
@@ -358,7 +403,7 @@
               <div class="experience-heading-inline">
                 <div>
                   <h5>Software Engineer Intern</h5>
-                  <h6><a href=https://enozom.com>Enozom.</a></h6>
+                  <h6><a href="https://enozom.com" target="_blank" rel="noopener">Enozom</a></h6>
                 </div>
                 <p class="text-muted">Jun.2023 ‑ Jul.2023 · Alexandria, Egypt</p>
               </div>
@@ -382,7 +427,7 @@
 
 
           <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-            <div class="circle font-weight-bold">3</div>
+            <div class="circle font-weight-bold">4</div>
           </div>
 
         </div>
@@ -406,7 +451,7 @@
         <div class="row align-items-center d-flex">
 
           <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-            <div class="circle font-weight-bold">4</div>
+            <div class="circle font-weight-bold">5</div>
           </div>
 
 
@@ -415,8 +460,8 @@
 
               <div class="experience-heading-inline">
                 <div>
-                  <h5>Cyber security Intern </h5>
-                  <h6><a href=https://cybertalents.com>Cyber Talent , Trend Micro</a></h6>
+                  <h5>Cyber security Intern</h5>
+                  <h6><a href="https://cybertalents.com" target="_blank" rel="noopener">Cyber Talents · Trend Micro</a></h6>
                 </div>
                 <p class="text-muted">July.2022 ‑ Sep.2022 · Remote</p>
               </div>
@@ -464,8 +509,8 @@
 
               <div class="experience-heading-inline">
                 <div>
-                  <h5>Cyberops associate trainee </h5>
-                  <h6><a href=https://nti.sci.eg>Egyptian National Telecommunication Institute</a></h6>
+                  <h5>Cyberops Associate Trainee</h5>
+                  <h6><a href="https://nti.sci.eg" target="_blank" rel="noopener">Egyptian National Telecommunication Institute</a></h6>
                 </div>
                 <p class="text-muted">June.2022 ‑ July.2022 · Remote</p>
               </div>
@@ -492,7 +537,7 @@
 
 
           <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-            <div class="circle font-weight-bold">5</div>
+            <div class="circle font-weight-bold">6</div>
           </div>
 
         </div>
@@ -516,7 +561,7 @@
         <div class="row align-items-center d-flex">
 
           <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-            <div class="circle font-weight-bold">6</div>
+            <div class="circle font-weight-bold">7</div>
           </div>
 
           <div class="col-10 col-lg-8">
@@ -525,8 +570,8 @@
 
               <div class="experience-heading-inline">
                 <div>
-                  <h5>frontend developer </h5>
-                  <h6><a href=https://sscsalex.org>IEEE SSCS Alexandria Branch </a></h6>
+                  <h5>Frontend Developer</h5>
+                  <h6><a href="https://sscsalex.org" target="_blank" rel="noopener">IEEE SSCS Alexandria Branch</a></h6>
                 </div>
                 <p class="text-muted">Oct.2021 ‑ Oct.2022 · Alexandria, Egypt</p>
               </div>
@@ -610,6 +655,96 @@
         <div class="row" id="project-card-holder">
 
 
+          <div class="col-sm-6 col-lg-3 p-2 filtr-item" data-category='all, professional, Latest, tool'>
+            <div class="card mt-1">
+              <div class="card">
+                <a class="card-header" href="https://github.com/Mohamed-khattab/exchange-core" target="_blank" rel="noopener">
+                  <div>
+                    <div class="d-flex">
+
+                      <img class="card-img-xs" src="/images/sections/projects/code.png"
+                        alt="exchange-core preview" />
+
+                      <h5 class="card-title mb-0">exchange-core</h5>
+                    </div>
+                    <div class="sub-title">
+                      <span>Software Development Internals · Fintech</span>
+                      <span>Apr.2026</span>
+                    </div>
+                  </div>
+                </a>
+                <div class="card-body text-justify pt-1 pb-1">
+                  <p>High-performance order matching engine in Go — price-time priority, WAL persistence, HMAC auth, rate limiting, and TLS. Built as a study of how real exchange cores handle latency and durability.</p>
+                  <span class="float-right">
+                    <a class="github-button-inactive" href="https://github.com/Mohamed-khattab/exchange-core"
+                      data-icon="octicon-standard" data-show-count="true" aria-label="Star exchange-core">Star</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-sm-6 col-lg-3 p-2 filtr-item" data-category='all, professional, Latest, tool'>
+            <div class="card mt-1">
+              <div class="card">
+                <a class="card-header" href="https://github.com/Mohamed-khattab/Storage-Engine" target="_blank" rel="noopener">
+                  <div>
+                    <div class="d-flex">
+
+                      <img class="card-img-xs" src="/images/sections/projects/amazon-database.svg"
+                        alt="Storage-Engine preview" />
+
+                      <h5 class="card-title mb-0">Storage-Engine</h5>
+                    </div>
+                    <div class="sub-title">
+                      <span>Software Development Internals</span>
+                      <span>2024</span>
+                    </div>
+                  </div>
+                </a>
+                <div class="card-body text-justify pt-1 pb-1">
+                  <p>Database storage engine in Go — <em>HeapManager</em> for table data and <em>IndexManager</em> with B+ tree indexes, on-disk binary format, with integrity and consistency invariants across tables and indexes.</p>
+                  <span class="float-right">
+                    <a class="github-button-inactive" href="https://github.com/Mohamed-khattab/Storage-Engine"
+                      data-icon="octicon-standard" data-show-count="true" aria-label="Star Storage-Engine">Star</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-sm-6 col-lg-3 p-2 filtr-item" data-category='all, professional, Latest, tool'>
+            <div class="card mt-1">
+              <div class="card">
+                <a class="card-header" href="https://github.com/Mohamed-khattab/Message-Queue" target="_blank" rel="noopener">
+                  <div>
+                    <div class="d-flex">
+
+                      <img class="card-img-xs" src="/images/sections/projects/image.png"
+                        alt="Message-Queue preview" />
+
+                      <h5 class="card-title mb-0">Message Queue</h5>
+                    </div>
+                    <div class="sub-title">
+                      <span>Software Development Internals</span>
+                      <span>Sep.2024</span>
+                    </div>
+                  </div>
+                </a>
+                <div class="card-body text-justify pt-1 pb-1">
+                  <p>Lightweight pub/sub message queue in Go with REST APIs for subscribe, unsubscribe, publish, and consume. Designed as a teaching reference for queue semantics and back-pressure.</p>
+                  <span class="float-right">
+                    <a class="github-button-inactive" href="https://github.com/Mohamed-khattab/Message-Queue"
+                      data-icon="octicon-standard" data-show-count="true" aria-label="Star Message-Queue">Star</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
           <div class="col-sm-6 col-lg-3 p-2 filtr-item" data-category='all, professional, Latest'>
             <div class="card mt-1">
               <div class="card">
@@ -617,7 +752,7 @@
                   <div>
                     <div class="d-flex">
 
-                      <img class="card-img-xs" src="/images//sections/projects/code.png"
+                      <img class="card-img-xs" src="/images/sections/projects/code.png"
                         alt="Alto B2B Platform preview" />
 
                       <h5 class="card-title mb-0">Alto B2B Platform</h5>
@@ -643,7 +778,7 @@
                   <div>
                     <div class="d-flex">
 
-                      <img class="card-img-xs" src="/images//sections/projects/amazon-database.svg"
+                      <img class="card-img-xs" src="/images/sections/projects/amazon-database.svg"
                         alt="Infantry House ERP preview" />
 
                       <h5 class="card-title mb-0">Infantry House ERP System</h5>
@@ -669,7 +804,7 @@
                   <div>
                     <div class="d-flex">
 
-                      <img class="card-img-xs" src="/images//sections/projects/amazon-database.svg"
+                      <img class="card-img-xs" src="/images/sections/projects/amazon-database.svg"
                         alt="diabetic Predictor image " />
 
                       <h5 class="card-title mb-0"> Database Engine as a Service</h5>
@@ -700,7 +835,7 @@
                   <div>
                     <div class="d-flex">
 
-                      <img class="card-img-xs" src="/images//sections/projects/amazon-database.svg"
+                      <img class="card-img-xs" src="/images/sections/projects/amazon-database.svg"
                         alt="diabetic Predictor image " />
 
                       <h5 class="card-title mb-0"> Memstash </h5>
@@ -733,7 +868,7 @@
                   <div>
                     <div class="d-flex">
 
-                      <img class="card-img-xs" src="/images//sections/projects/image.png"
+                      <img class="card-img-xs" src="/images/sections/projects/image.png"
                         alt="diabetic Predictor image " />
 
                       <h5 class="card-title mb-0"> Token Bucket Rate Limiter </h5>
@@ -766,7 +901,7 @@
                   <div>
                     <div class="d-flex">
 
-                      <img class="card-img-xs" src="/images//sections/projects/gossip.png"
+                      <img class="card-img-xs" src="/images/sections/projects/gossip.png"
                         alt="diabetic Predictor image " />
 
                       <h5 class="card-title mb-0">Gossip Algorithm</h5>
@@ -909,7 +1044,7 @@ unresponsive nodes, promoting robust system reliability and data consistency.</p
 
                       <img class="card-img-xs" src="/images/sections/projects/snakes.png" alt="snakegame" />
 
-                      <h5 class="card-title mb-0">Snak Game</h5>
+                      <h5 class="card-title mb-0">Snake Game</h5>
                     </div>
                     <div class="sub-title">
                       <span>Software Development</span>
@@ -1295,12 +1430,16 @@ unresponsive nodes, promoting robust system reliability and data consistency.</p
               <span><a href="mailto:Mohamed.e.khattab.0@gmail.com">Mohamed.e.khattab.0@gmail.com</a></span>
             </li>
             <li>
-              <span>Twitter: </span>
-              <span><a href="https://twitter.com/khattab_0X" target="_blank">twitter.com/khattab_0X</a></span>
+              <span>X / Twitter: </span>
+              <span><a href="https://twitter.com/ME_Khattab" target="_blank" rel="noopener">@ME_Khattab</a></span>
             </li>
             <li>
               <span>GitHub: </span>
-              <span><a href="https://github.com/Mohamed-khattab" target="_blank">github.com/Mohamed-khattab</a></span>
+              <span><a href="https://github.com/Mohamed-khattab" target="_blank" rel="noopener">github.com/Mohamed-khattab</a></span>
+            </li>
+            <li>
+              <span>LinkedIn: </span>
+              <span><a href="https://www.linkedin.com/in/mohamed-khattab-0x/" target="_blank" rel="noopener">mohamed-khattab-0x</a></span>
             </li>
 
           </ul>
